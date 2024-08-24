@@ -136,6 +136,27 @@ public class Utama {
         monyet.setTempatHidup("hutan");
         monyet.vivipar();
         monyet.budidaya();
+        
+        System.out.println("====================================================");
+
+        Pisces mujair = new Pisces();
+        mujair.setNamaHewan("Mujair");
+        System.out.println("Haloo, aku adalah " + mujair.getNamaHewan());
+        mujair.bernafas();
+        mujair.tumbuh();
+        mujair.setSistemPernapasan("insang");
+        System.out.println("Aku bernafas dengan " + mujair.getSistemPernapasan());
+        mujair.ciriCiri();
+        mujair.setMakanan("hewan kecil");
+        System.out.println("Aku pemakan " + mujair.getMakanan());
+        mujair.tempatHidup();
+        mujair.ekor();
+        mujair.setJumlahKaki(0);
+        System.out.println("Aku berkaki " + mujair.getJumlahKaki());
+        mujair.setBerjalan("Berenang");
+        System.out.println("Aku bergerak dengan cara " + mujair.getBerjalan());
+        mujair.ovipar();
+        mujair.budidaya();
     }
 
 }

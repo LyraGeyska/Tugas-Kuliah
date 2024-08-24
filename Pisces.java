@@ -9,6 +9,12 @@ package tgssemester3;
  *
  * @author LENOVO
  */
-public class Pisces {
+public class Pisces extends Hewan{
+    public void tempatHidup(){
+        System.out.println("Aku hidup di air");
+    }
+    public void ekor(){
+        System.out.println("Aku memiliki ekor untuk berenang");
+    }
     
 }
